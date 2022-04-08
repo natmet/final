@@ -1,0 +1,23 @@
+.text{
+    text-align: center;
+    padding: 4em;
+
+}
+.background{
+  background-image: url("../../assets/img/hero/about.jpg");
+}
+
+.btn{
+  background: #312ee6;
+  text-decoration: none;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 101%;
+  height: 101%;
+  background: none;
+}
